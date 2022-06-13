@@ -224,7 +224,7 @@ void loop()
   printCenter("BTC/USD", 0, 0);                                                         //Display the comparison header
 
   display.setTextSize(2);
-  printCenter("$" + BTCUSDPrice, 0, 25);                                                //Display the current price
+  printCenter("$" + BTCUSDPrice.substring( 0, BTCUSDPrice.lastIndexOf( '.' ) ), 0, 25);                                                //Display the current price
                                            
   display.setTextSize(1);                                                               //Display the change percentage
   dayChangeString = dayChangeString + percentChange + "%";
