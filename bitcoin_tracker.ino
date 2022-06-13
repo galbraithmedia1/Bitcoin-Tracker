@@ -21,8 +21,8 @@
 #define downLED 12
 Adafruit_SSD1306 display (SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);    //Create the display object
 
-const char* ssid = "crystal2-2.4";                                            //Set your WiFi network name and password
-const char* password = "Friend01";
+const char* ssid = "****";                                            //Set your WiFi network name and password
+const char* password = "****";
 
 const int httpsPort = 443;                                                          //Bitcoin price API powered by CoinDesk - https://www.coindesk.com/price/bitcoin
 const String url = "http://api.coindesk.com/v1/bpi/currentprice/BTC.json";
