@@ -1,8 +1,8 @@
-//Michael Klements
-//24 April 2021
+//Taylor Galbraith
+//12 June 2022
 //Bitcoin Ticker
-//Modified from Andrew Budziszek's original version "https://github.com/SonnyBrooks/bitcoin-ticker-esp32/blob/main/bitcoinTicker.ino"
-//to include the Bitcoin logo and IO for the red and green indicator LEDs
+//Modified from Michael Klements's version "https://www.the-diy-life.com/bitcoin-ticker-using-an-esp32-and-oled-display/"
+
 
 
 #include <Adafruit_SSD1306.h>                                                 //Include the required libraries
